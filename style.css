@@ -1,3 +1,11 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+  }
 form{
 	border: 1px black solid;
 	max-width: max-content;
@@ -20,16 +28,11 @@ form{
 	float: left;
 }
 .center{
-	text-align: center;
+	justify-content: space-between;
+	padding: 0px 10px;
 	margin: 10px 0px 0px 0px;
+	display:flex;
 }
-html, body {
-  
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.center input{
+	margin-right: 50px;
 }
-
