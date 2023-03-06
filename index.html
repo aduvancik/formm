@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Denis Novik</title>
-	<link rel="shortcut icon" href="https://i.pinimg.com/236x/51/88/02/5188023c05ac9d52dc422eaeca21bce4.jpg" width="16px">
+	<link rel="shortcut icon" href="https://i.pinimg.com/236x/51/88/02/5188023c05ac9d52dc422eaeca21bce4.jpg"
+		width="16px">
 	<link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 	<form>
 		<div class="block">
 			<div class="margin">
 				<label class="text" for="fname">Повне ім'я</label>
-		<input class="input" type="text" id="fname" name="name" placeholder="ім'я">
-	</div><br>
-		<div class="margin">
-			<label class="text" for="lname">Email</label>
- 		 <input class="input" type="email" name="email" placeholder="email@gmail.com"><br>
-		</div>
-		  <div class="margin">
-				 <label class="text" for="lname">Пароль</label>
- 		 <input class="input"  type="password" name="password" placeholder="Пароль"><br>
-		</div>
-			<div class="margin"> 
-				<label  class="text" for="password2">Пароль ще раз</label>
- 		 <input class="input" type="password" name="email" placeholder="Пароль"><br>
-		</div>
-		  <div class="margin"> 
-				<label class="text" for="lname">Стать</label>
-			<div class="input">
-			<input  type="radio" name="gender" value="male" checked> Чоловіча
-		  <input  type="radio" name="gender" value="female"> Жіноча
-		</div>
-		  <br></div>
-		  <div class="margin"> 
+				<input class="input" type="text" id="fname" name="name" placeholder="ім'я">
+			</div><br />
+			<div class="margin">
+				<label class="text" for="lname">Email</label>
+				<input class="input" type="email" name="email" placeholder="email@gmail.com"><br />
+			</div>
+			<div class="margin">
+				<label class="text" for="lname">Пароль</label>
+				<input class="input" type="password" name="password" placeholder="Пароль"><br />
+			</div>
+			<div class="margin">
+				<label class="text" for="password2">Пароль ще раз</label>
+				<input class="input" type="password" name="email" placeholder="Пароль"><br />
+			</div>
+			<div class="margin">
+				<p class="text">Стать</p>
+				<div class="input">
+					<input type="radio" name="gender" value="male" checked>
+					<label for="gender">Чоловіча</label>
+					<input type="radio" name="gender" value="female">
+					<label for="gender">Жіноча</label>
+				</div>
+				<br>
+			</div>
+			<div class="margin">
 				<label class="text" for="lname">Вік</label>
-		  <input class="input" type="number" name="gender" value="female"><br>
-		</div>
-		  <div class="margin">
+				<input class="input" type="number" name="gender" value="female"><br />
+			</div>
+			<div class="margin">
 				<label class="text" for="lname">Курс</label>
-		  <select class="input" name="user_kurs">
-			<option class="input"  selected>-=Виберіть курс=-</option>
-			<option >1</option>
-			<option >2</option>
-			<option >3</option>
-			<option >4</option>
-		  </select></div><br>
-		  <div class="margin">
+				<select class="input" name="user_kurs">
+					<option class="input" selected>-=Виберіть курс=-</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</div><br />
+			<div class="margin">
 				<label class="text" for="lname">Повна адреса</label>
-		  <textarea class="input" name="message" rows="5" cols="30" placeholder="Країна,регіон ,місто/селище, вулиця"></textarea>
+				<textarea class="input" name="message" rows="5" cols="30"
+					placeholder="Країна,регіон ,місто/селище, вулиця"></textarea>
+			</div>
+			<br /><br /><br /><br />
+			<br />
+			<input type="checkbox" id="myCheckbox">
+			<label for="myCheckbox">я погоджуюся з обробкою персональних даних</label><br />
 		</div>
-		<br><br><br><br>
-		<br>
-		  <input  type="checkbox" id="myCheckbox">
-		  <label  for="myCheckbox">я погоджуюся з обробкою персональних даних</label><br>
+		<div class="center">
+			<button value="очистити" type="reset"  onclick="alert('Ви впевнені?форма очиститься')">reset</button>
+			<button type="submit" value="зареєструватись">submit</button>
 		</div>
-	</div>
-</div>
-	<div class="center">
-		<input type="reset" value="очистити" onclick="alert('Ви впевнені?форма очиститься')">
-		<input type="submit" value="зареєструватись">
-	</div>
-	  </form>
+	</form>
+	
 </body>
+
 </html>

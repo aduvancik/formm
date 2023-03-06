@@ -13,13 +13,16 @@ form{
 	background-color: #efefef;
 	margin: 100px auto;
 }
+p{
+	margin: 0;
+}
 .block{
 	overflow: auto;
 	width: 400px;
 	
 }
 .margin{
-	margin: 10px 0 0 0
+	margin: 10px 0 0 0;
 }
 .input{
 	float: right;
@@ -33,6 +36,14 @@ form{
 	margin: 10px 0px 0px 0px;
 	display:flex;
 }
-.center input{
-	margin-right: 50px;
+ button{
+	cursor: pointer;
+	border-radius:10px;
+	padding: 4px;
+	color: white;
+	background-color: black;
+} 
+button:hover{
+	background-color: #fff;
+	color: black;
 }
